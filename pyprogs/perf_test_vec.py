@@ -11,7 +11,8 @@ import time
 from math import exp
 
 
-### example that shows us how vectorization increae the performance of computation 
+### example that shows us how vectorization increae the performance of computation
+# I added a new comment here 
 a = np.random.rand(1000000)
 b = np.random.rand(1000000)
 
