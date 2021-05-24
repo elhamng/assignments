@@ -5,7 +5,7 @@
  
  
  single hiden layer NN
-<img src="https://user-images.githubusercontent.com/64529936/119261066-f6ebaa80-bbd5-11eb-962f-0641b5a61f57.png" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/64529936/119261066-f6ebaa80-bbd5-11eb-962f-0641b5a61f57.png" width="300" height="300">
 
 input layer input featurs to hiden layers
 
@@ -22,7 +22,7 @@ a[2] = simoid[z[2]]
 
 # activation functions
 
-<img src= "https://user-images.githubusercontent.com/64529936/119306768-f2bd9c80-bc6a-11eb-9ff4-1495b5da7061.png" width="300" height="300">
+<img src= "https://user-images.githubusercontent.com/64529936/119306768-f2bd9c80-bc6a-11eb-9ff4-1495b5da7061.png" width="500" height="500">
 
 a = sigmoid(z) =. 1/1+exp(-z).      ------ binary calssificaton y = {0,1}
 
