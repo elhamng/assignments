@@ -83,5 +83,6 @@ The general methodology to build a Neural Network is to:
     - Update parameters (gradient descent)
  
  ![image](https://user-images.githubusercontent.com/64529936/119332172-8782c300-bc88-11eb-8e2a-3ab7ebf7f902.png)
-in tanh(z) : To compute dZ1 we need to compute a[1]'(𝑍[1]) . Since a[1](.)  is the tanh activation function  then a[1]'(𝑧)=1−𝑎2 . So we can compute a[1]'(𝑍[1])  using (1 - np.power(A1, 2)).
+in tanh(z) : To compute dZ1 we need to compute g[1]'(𝑍[1]) . Since g[1](.)  is the tanh activation function  then g[1]'(𝑧)=1−𝑎^2 . So we can compute g[1]'(𝑍[1])  using (1 - np.power(A1, 2)).
+
 
