@@ -22,7 +22,7 @@ a[2] = simoid[z[2]]
 
 # activation functions
 
-![image](https://user-images.githubusercontent.com/64529936/119306768-f2bd9c80-bc6a-11eb-9ff4-1495b5da7061.png)
+<img src= "https://user-images.githubusercontent.com/64529936/119306768-f2bd9c80-bc6a-11eb-9ff4-1495b5da7061.png" width="300" height="300">
 
 a = sigmoid(z) =. 1/1+exp(-z).      ------ binary calssificaton y = {0,1}
 
