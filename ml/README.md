@@ -13,7 +13,7 @@ first node in hiden layers computes like z1 = w1.T * x1 + b1,  a1 = sigmoid(z1) 
 (Z is a column vector, w is a (nxn) matric, b is a (nx1) array )
 the horizontally the matrix A goes over different training examples and vertically the different indices in the matrix A corresponds to different hidden units.
   
-# forward prppagation:  
+# forward propagation:  
   
 z[1]= w[1]x +b[1] ---
 a[1] =sigmid[z[1]] ---
@@ -31,7 +31,7 @@ a = tanh(z)  = exp(z)-exp(-z)/exp(z)+exp(-z) -------- -1<y<1
                                 
 a = max{0,z}.  --->relu ------> computation is faster , learning nn is faster becous of slop of relu or leaky relu.
 
-backward propagation:
+# backward propagation:
 
 dsigmoid/dz = give the slop of function ot z. ==. 1/1+exp(-z)(1-1/1+exp(-z)) = a(z)(1-a(z))
 
@@ -52,5 +52,36 @@ in tanh activation
  a = max(0,z)
  if z < 0  a' = 0 and if z>= 0 a' = 1
  
+ # Gradient descent nn
+ parameters : w[1],b[1], w[2],b[2].       n[0], hiden layer n[1],  output layer n[1] = 1
  
+ dimension of parameter w[1]--->(n[1],n[0]), b[1]--->(n[0],1),  w[2]--->(n[2],n[1]), b[2]--->(n[1],1)
+ 
+ cost function : J(w[2],b[2],w[1],b[1]) = 1/m sum(L(yhat-y))
+ 
+ gredient desent : repeat{ compute predect ( yhat(i) --- i=0 .... m )
+ 
+                                            dw[1] = dJ/dw[1], db[1] =dJ/db[1], dw[2]= dJ/dw[2] , db = dJ/db[2]
+                                            
+                                            w[1] = w[1] - alpha dw[1] , b[1] = b[1] - alpha db[1]
+  
+  
+ 
+da = dLoss(a,y)/da= -yloga - (1-y)log(1-a)
+
+
+The general methodology to build a Neural Network is to:
+
+1. Define the neural network structure ( # of input units,  # of hidden units, etc). 
+
+2. Initialize the model's parameters
+
+3. Loop:
+    - Implement forward propagation
+    - Compute loss
+    - Implement backward propagation to get the gradients
+    - Update parameters (gradient descent)
+ 
+ ![image](https://user-images.githubusercontent.com/64529936/119332172-8782c300-bc88-11eb-8e2a-3ab7ebf7f902.png)
+in tanh(z) : To compute dZ1 we need to compute a[1]'(𝑍[1]) . Since a[1](.)  is the tanh activation function  then a[1]'(𝑧)=1−𝑎2 . So we can compute a[1]'(𝑍[1])  using (1 - np.power(A1, 2)).
 
