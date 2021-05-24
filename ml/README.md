@@ -5,7 +5,7 @@
  
  
  single hiden layer NN
-<img src="https://user-images.githubusercontent.com/64529936/119261066-f6ebaa80-bbd5-11eb-962f-0641b5a61f57.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/64529936/119261066-f6ebaa80-bbd5-11eb-962f-0641b5a61f57.png" width="500" height="500">
 
 input layer input featurs to hiden layers
 
