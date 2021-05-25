@@ -13,14 +13,14 @@ first node in hiden layers computes like z1 = w1.T * x1 + b1,  a1 = sigmoid(z1) 
 (Z is a column vector, w is a (nxn) matric, b is a (nx1) array )
 the horizontally the matrix A goes over different training examples and vertically the different indices in the matrix A corresponds to different hidden units.
   
-# forward propagation:  
+# Forward propagation:  
   
 z[1]= w[1]x +b[1] ---
 a[1] =sigmid[z[1]] ---
 z[2] w[2]a[1]+ b[2] ---
 a[2] = simoid[z[2]] 
 
-# activation functions
+# Activation functions
 
 <img src= "https://user-images.githubusercontent.com/64529936/119306768-f2bd9c80-bc6a-11eb-9ff4-1495b5da7061.png" width="500" height="500">
 
@@ -31,7 +31,7 @@ a = tanh(z)  = exp(z)-exp(-z)/exp(z)+exp(-z) -------- -1<y<1
                                 
 a = max{0,z}.  --->relu ------> computation is faster , learning nn is faster becous of slop of relu or leaky relu.
 
-# backward propagation:
+# Backward propagation:
 
 dsigmoid/dz = give the slop of function ot z. ==. 1/1+exp(-z)(1-1/1+exp(-z)) = a(z)(1-a(z))
 
