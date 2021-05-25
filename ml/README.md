@@ -85,4 +85,22 @@ The general methodology to build a Neural Network is to:
  ![image](https://user-images.githubusercontent.com/64529936/119332172-8782c300-bc88-11eb-8e2a-3ab7ebf7f902.png)
 in tanh(z) : To compute dZ1 we need to compute g[1]'(𝑍[1]) . Since g[1](.)  is the tanh activation function  then g[1]'(𝑧)=1−𝑎^2 . So we can compute g[1]'(𝑍[1])  using (1 - np.power(A1, 2)).
 
+## Bias and variance
+1 high bias,
+2 high variance and 
+3 just right 
+
+two key values to chekch bias and variance are train set error and dev set error 
+
+if train set error is 1% and dev set error is 11% that means model is overfiting and results are bad for dev set and modle has high variance
+
+if train set error is 15% and dev set error is 16% that means model cannot fit train data and underfitting happens and also error in dev set is high so there is high bias and low variance here. 
+
+if train set error is 15% and dev set error is even worth 30% that means model canno fit and there is high bias and also dev set error is much larger and there is high variace also.
+
+if train set error is 0.5% and dev set error is 1% that means results are quit good and there are low bias and low variance
+
+
+
+
 
