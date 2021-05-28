@@ -26,4 +26,4 @@ We can measure the accuracy of our hypothesis function by using a cost function.
  h<sub>&theta;</sub>(x) = &theta;<sub>o + &theta;<sub>1</sub>x
  
  in many features h<sub>&theta;</sub>(x) = &theta;<sub>o + &theta;<sub>1</sub>x + &theta;<sub>2</sub>x + &theta;<sub>3</sub>x
- 
+    
