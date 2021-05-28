@@ -23,7 +23,5 @@ We can measure the accuracy of our hypothesis function by using a cost function.
 ![image](https://user-images.githubusercontent.com/64529936/119698074-29eda280-be51-11eb-8426-9e4cb7715cea.png)
 
 ## Hypothesis in linear regression  
-![formula](https://render.githubusercontent.com/render/math?math=A%20-%20B%20=%20\{x%20\in%20\U%20\mid%20x%20\in%20A%20\land%20x%20\notin%20B%20\})
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-![formula](https://render.githubusercontent.com/render/math?math= h(x)={ax%20-%20a_0})
+ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
  in many features <img src="https://render.githubusercontent.com/render/math?math= h(x) = \theta_1 x_1 %2B \theta_2 x_2"> 
