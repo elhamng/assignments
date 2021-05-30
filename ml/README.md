@@ -27,6 +27,9 @@ We can measure the accuracy of our hypothesis function by using a cost function.
  
  in many features 
  
- <img src="https://render.githubusercontent.com/render/math?math=h(\theta) = \theta_1 x %2B \theta_2 x %2B \theta_3 x %2B...%2B (\theta_0">
+ <img src="https://render.githubusercontent.com/render/math?math=h(\theta) = \theta_1 x_1 %2B \theta_2 x_2 %2B \theta_3 x_3 %2B...%2B (\theta_0">
+ 
+ ## Feature scaling 
+ ideat that make sure features are on a similar scale.
  
     
