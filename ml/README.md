@@ -53,6 +53,9 @@ Step two: Creas an individual tree for each subset
 ![image](https://user-images.githubusercontent.com/64529936/122767500-07f60d00-d2a3-11eb-9914-13ee7f2f131d.png)
 
 ![image](https://user-images.githubusercontent.com/64529936/122767631-26f49f00-d2a3-11eb-9d65-aa3b7e5b264a.png)
+repeat for 6 subsets 
+![image](https://user-images.githubusercontent.com/64529936/122769295-bcdcf980-d2a4-11eb-9513-e5bea7c81a85.png)
+
 
 Bootstrapping data and using its aggregate to make a decission is known as bagging, i.e., bagging is training a bunch of individual models parallelly that each model is trained by a random subset of the data. 
 The size of data remains the same,  all the subsets are equal in terms of number of rows. So all of the subsets have the same nubmber of rows as the main data.
