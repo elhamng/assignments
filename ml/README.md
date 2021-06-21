@@ -78,6 +78,9 @@ keep doing this untill we have significant number of trees
 ![image](https://user-images.githubusercontent.com/64529936/122776454-67f0b180-d2ab-11eb-8171-4a9c7fdee9fd.png)
 
 There are some of the trees which have never seen out of bag row
+![image](https://user-images.githubusercontent.com/64529936/122780402-1b0eda00-d2af-11eb-8434-333be775855c.png)
+![image](https://user-images.githubusercontent.com/64529936/122780570-41347a00-d2af-11eb-9e66-ab2a324ac508.png)
+
 
 
 
