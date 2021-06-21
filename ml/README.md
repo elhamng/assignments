@@ -32,4 +32,23 @@ We can measure the accuracy of our hypothesis function by using a cost function.
  ## Feature scaling 
  ideat that make sure features are on a similar scale.
  
+ ## Random Forest
+ Random forest is a model that is bult up many decision trees whose features selected random. it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters. 
+ Random forest is the most used supervised machine learning algorithm for regression and classification.
+ ![image](https://user-images.githubusercontent.com/64529936/122762647-d4fd4a80-d29d-11eb-876e-20e00f6feb0c.png)
+ 
+ There are two main steps for random forest model : 
+ 
+ first create a bootstrapped dataset 
+ for example table shows an original dataset
+ ![image](https://user-images.githubusercontent.com/64529936/122763168-50f79280-d29e-11eb-9263-9b7faaf80300.png)
+ We select randomly a subset from original dataset like :
+ ![image](https://user-images.githubusercontent.com/64529936/122763332-81d7c780-d29e-11eb-9a08-c55b57946f16.png)
+![image](https://user-images.githubusercontent.com/64529936/122763467-a764d100-d29e-11eb-9451-16efb296da75.png)
+
+
+ 
+ 
+
+ 
     
