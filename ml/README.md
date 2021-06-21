@@ -47,13 +47,17 @@ We can measure the accuracy of our hypothesis function by using a cost function.
  ![image](https://user-images.githubusercontent.com/64529936/122763332-81d7c780-d29e-11eb-9a08-c55b57946f16.png)
 ![image](https://user-images.githubusercontent.com/64529936/122763467-a764d100-d29e-11eb-9451-16efb296da75.png)
 
-Bootstrapping data and using its aggregate to make a decission is known as bagging, i.e., bagging is training a bunch of individual models parallelly that each model is trained by a random subset of the data. 
-The size of data remains the same  all the subsets are equal in terms of number of rows. So all of the subsets have the same nubmber of rows as the main data.
+
 
 Step two: Creas an individual tree for each subset
 ![image](https://user-images.githubusercontent.com/64529936/122767500-07f60d00-d2a3-11eb-9914-13ee7f2f131d.png)
 
 ![image](https://user-images.githubusercontent.com/64529936/122767631-26f49f00-d2a3-11eb-9d65-aa3b7e5b264a.png)
+
+Bootstrapping data and using its aggregate to make a decission is known as bagging, i.e., bagging is training a bunch of individual models parallelly that each model is trained by a random subset of the data. 
+The size of data remains the same,  all the subsets are equal in terms of number of rows. So all of the subsets have the same nubmber of rows as the main data.
+
+![image](https://user-images.githubusercontent.com/64529936/122768377-d3cf1c00-d2a3-11eb-876f-5704633bebbe.png)
 
 
 ![image](https://user-images.githubusercontent.com/64529936/122767160-a59d0c80-d2a2-11eb-92f2-3c3cc62b85ac.png)
