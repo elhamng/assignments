@@ -62,8 +62,28 @@ The size of data remains the same,  all the subsets are equal in terms of number
 
 ![image](https://user-images.githubusercontent.com/64529936/122768377-d3cf1c00-d2a3-11eb-876f-5704633bebbe.png)
 
-
+there is two diffrences between the dataset and the subsets : 1) the size of row the same but data are diffrenet because we select data by random sampling with replacement and pass on this data to different trees where we have different columns for the tree which is at random and then we are going to train these individual trees and then we will take vote of these trees.  
 ![image](https://user-images.githubusercontent.com/64529936/122767160-a59d0c80-d2a2-11eb-92f2-3c3cc62b85ac.png)
+
+All the steps:
+
+![image](https://user-images.githubusercontent.com/64529936/122772926-26aad280-d2a8-11eb-85e9-6f65eafe384c.png)
+
+![image](https://user-images.githubusercontent.com/64529936/122774693-b4d38880-d2a9-11eb-9b8b-1193de60235c.png)
+different nodes take different columns to do splitting data that is why decision trees will be different from each other. 
+![image](https://user-images.githubusercontent.com/64529936/122774801-cf0d6680-d2a9-11eb-8499-56e5203e738c.png)
+
+keep doing this untill we have significant number of trees 
+![image](https://user-images.githubusercontent.com/64529936/122776348-50192d80-d2ab-11eb-8c27-9d46d15471a8.png)
+![image](https://user-images.githubusercontent.com/64529936/122776454-67f0b180-d2ab-11eb-8171-4a9c7fdee9fd.png)
+
+There are some of the trees which have never seen out of bag row
+
+
+
+
+
+
 
 
  
