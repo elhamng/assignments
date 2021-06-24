@@ -85,4 +85,16 @@ The general methodology to build a Neural Network is to:
  ![image](https://user-images.githubusercontent.com/64529936/119332172-8782c300-bc88-11eb-8e2a-3ab7ebf7f902.png)
 in tanh(z) : To compute dZ1 we need to compute g[1]'(𝑍[1]) . Since g[1](.)  is the tanh activation function  then g[1]'(𝑧)=1−𝑎^2 . So we can compute g[1]'(𝑍[1])  using (1 - np.power(A1, 2)).
 
+## Classic network
+1- LeNet-5 , 2- AlexNet, 3- VGG
 
+ResNet :
+The core idea of ResNet is introducing a so-called “identity shortcut connection” that skips one or more layers.
+Very, very deep neural networks are difficult to train because of vanishing and exploding gradient types of problems.
+Using residual blocks allows you to train much deeper neural networks.
+
+# One-by-one convolution 
+one-by-one convolutions allows you to shrink the number of channels and therefore save on computation in some networks. The effect of a one-by-one convolution is it just has nonlinearity. It allows you to learn a more complex function of your network by adding another layer,
+bottleneck layer can be shrinked down the representation size significantly, and it doesn't seem to hurt the performance, but saves you a lot of computation.
+
+the depthwise separable convolution has two steps. You're going to first use a depthwise convolution, followed by a pointwise convolution. It is these two steps which together make up this depthwise separable convolution.
